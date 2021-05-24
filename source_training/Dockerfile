@@ -9,7 +9,7 @@ RUN pip install -r requirements.txt
 COPY /src .
 
 ##ENTRYPOINT##
-CMD [ "trainning.handler" ]
+CMD [ "training.handler" ]
 
 
 
